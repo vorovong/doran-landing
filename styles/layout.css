@@ -45,13 +45,13 @@
 
 .site-header:hover .wordmark { opacity: 0.7; }
 
-/* === Seamless darkening gradient: top → bottom === */
-/* Hero #FAFAF8 → Pain #F3F0EB → Liberation #EDEAE4 → Vision #E7E4DD → CTA #E1DED7 → #DBD8D1 */
+/* === Seamless warm darkening gradient: top → bottom === */
+/* #FEFDFB → #F7F1E8 → #F0E8DB → #E9E0D1 → #E2D8C8 → #DCD1C0 */
 
 .section--hero {
   min-height: 100vh;
   align-items: center;
-  background: linear-gradient(180deg, #FAFAF8 0%, #F3F0EB 100%);
+  background: linear-gradient(180deg, #FEFDFB 0%, #F7F1E8 100%);
 }
 
 .hero-bg {
@@ -225,11 +225,11 @@
 }
 
 .section--pain {
-  background: linear-gradient(180deg, #F3F0EB 0%, #EDEAE4 100%);
+  background: linear-gradient(180deg, #F7F1E8 0%, #F0E8DB 100%);
 }
 
 .section--liberation {
-  background: linear-gradient(180deg, #EDEAE4 0%, #E7E4DD 100%);
+  background: linear-gradient(180deg, #F0E8DB 0%, #E9E0D1 100%);
 }
 
 .liberation__body {
@@ -241,7 +241,7 @@
 }
 
 .section--vision {
-  background: linear-gradient(180deg, #E7E4DD 0%, #E1DED7 100%);
+  background: linear-gradient(180deg, #E9E0D1 0%, #E2D8C8 100%);
   padding-top: calc(var(--space-section) * 0.8);
   padding-bottom: calc(var(--space-section) * 1.2);
 }
@@ -279,7 +279,7 @@
 }
 
 .section--cta {
-  background: linear-gradient(180deg, #E1DED7 0%, #DBD8D1 100%);
+  background: linear-gradient(180deg, #E2D8C8 0%, #DCD1C0 100%);
   padding-bottom: 80px;
   position: relative;
 }
@@ -337,7 +337,7 @@
   gap: 12px;
   font: var(--text-caption);
   color: var(--color-text-muted);
-  background: #DBD8D1;
+  background: #DCD1C0;
   border-top: 1px solid rgba(0,0,0,0.06);
 }
 
