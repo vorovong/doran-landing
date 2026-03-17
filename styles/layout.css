@@ -45,11 +45,11 @@
 
 .site-header:hover .wordmark { opacity: 0.7; }
 
-/* === HERO === */
+/* === HERO — warm, emotional start === */
 .section--hero {
   min-height: 100vh;
   align-items: center;
-  background: var(--color-bg);
+  background: linear-gradient(180deg, #FAFAF8 0%, #F6F4F0 70%, #F3F1ED 100%);
 }
 
 .hero-bg {
@@ -222,14 +222,14 @@
   50% { transform: translateX(-50%) translateY(6px); opacity: 0.8; }
 }
 
-/* === PAIN === */
+/* === PAIN — mood shifts, acknowledges the problem === */
 .section--pain {
-  background: var(--color-bg-alt);
+  background: linear-gradient(180deg, #F3F1ED 0%, #EFECEA 50%, #F2F0EC 100%);
 }
 
-/* === LIBERATION === */
+/* === LIBERATION — brightening, hope returns === */
 .section--liberation {
-  background: var(--color-bg);
+  background: linear-gradient(180deg, #F5F7F5 0%, #F2F6F3 50%, #EFF4F0 100%);
 }
 
 .liberation__body {
@@ -240,9 +240,9 @@
   margin-bottom: 36px;
 }
 
-/* === VISION === */
+/* === VISION — clean, structured, product-like === */
 .section--vision {
-  background: var(--color-bg-vision);
+  background: linear-gradient(180deg, #EFF4F0 0%, #F0F3EE 40%, #F5F7F4 100%);
   padding-top: calc(var(--space-section) * 0.8);
   padding-bottom: calc(var(--space-section) * 1.2);
 }
@@ -279,9 +279,9 @@
   color: var(--color-text-secondary);
 }
 
-/* === CTA === */
+/* === CTA — warm return, emotional close === */
 .section--cta {
-  background: var(--color-bg);
+  background: linear-gradient(180deg, #F7F6F3 0%, #FAF8F5 50%, #FAFAF8 100%);
   padding-bottom: 80px;
   position: relative;
 }
