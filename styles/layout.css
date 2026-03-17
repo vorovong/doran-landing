@@ -305,9 +305,10 @@
 }
 
 .cta-boat {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   animation: boat-rock 5s ease-in-out infinite;
   display: inline-block;
+  line-height: 0;
 }
 
 .cta__title {
