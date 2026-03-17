@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>도란 — 대화에 몰입하면, 모임은 알아서 굴러갑니다</title>
+  <meta name="description" content="모임이 끝나면 시작되는 일, 이제 도란이 할게요. 녹음 하나로 회의록, 할 일, 다음 안건까지.">
+
+  <!-- OG Tags -->
+  <meta property="og:title" content="도란하자.">
+  <meta property="og:description" content="모임이 끝나면 시작되는 일, 이제 도란이 할게요.">
+  <meta property="og:image" content="images/og-image.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="도란">
+  <meta property="og:url" content="https://doran.kr">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/components.css">
+</head>
+<body>
+  <header class="site-header">
+    <span class="wordmark">도란</span>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="section section--hero">
+      <!-- Decorative background shapes -->
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-blob hero-blob--1"></div>
+        <div class="hero-blob hero-blob--2"></div>
+        <div class="hero-blob hero-blob--3"></div>
+      </div>
+
+      <div class="section__inner section__inner--wide">
+        <div class="hero-layout">
+          <div class="hero-text">
+            <h1 class="hero__title">
+              처음 모였을 때,<br><span class="hero__title--em">그냥 좋았다.</span>
+            </h1>
+            <p class="hero__subtitle">
+              같이 이야기하고 싶어서 모였다.<br>
+              그게 전부였다.
+            </p>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <!-- Illustrated people talking scene -->
+            <div class="hero-scene">
+              <div class="scene-circle"></div>
+              <div class="scene-person scene-person--1">
+                <div class="person-head"></div>
+                <div class="person-body"></div>
+              </div>
+              <div class="scene-person scene-person--2">
+                <div class="person-head"></div>
+                <div class="person-body"></div>
+              </div>
+              <div class="scene-person scene-person--3">
+                <div class="person-head"></div>
+                <div class="person-body"></div>
+              </div>
+              <!-- Speech bubbles -->
+              <div class="speech-bubble speech-bubble--1"></div>
+              <div class="speech-bubble speech-bubble--2"></div>
+              <div class="speech-bubble speech-bubble--3"></div>
+              <!-- Paper boat -->
+              <div class="mini-boat">
+                <svg width="40" height="28" viewBox="0 0 40 28" fill="none">
+                  <path d="M20 2L36 22H4L20 2Z" fill="#E8DDD0" stroke="#C4B8A8" stroke-width="1"/>
+                  <line x1="20" y1="2" x2="20" y2="16" stroke="#C4B8A8" stroke-width="1"/>
+                  <path d="M2 26Q20 22 38 26" stroke="#C4B8A8" stroke-width="1" fill="none"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M12 5v14M5 12l7 7 7-7"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- PAIN -->
+    <section id="pain" class="section section--pain">
+      <div class="section__inner section__inner--wide">
+        <h2 class="section-heading">
+          그런데 어느새,<br>대화가 끝나면 <span class="text-pain">일</span>이 됐다.
+        </h2>
+        <div class="pain-cards">
+          <article class="pain-card">
+            <div class="pain-card__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                <rect x="8" y="6" width="16" height="20" rx="2"/>
+                <line x1="12" y1="12" x2="20" y2="12"/>
+                <line x1="12" y1="16" x2="18" y2="16"/>
+                <line x1="12" y1="20" x2="16" y2="20"/>
+              </svg>
+            </div>
+            <span class="pain-card__label">모임 중</span>
+            <p class="pain-card__text">다들 대화하는데<br>한 명은 타이핑하고 있다</p>
+          </article>
+          <article class="pain-card">
+            <div class="pain-card__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                <circle cx="16" cy="16" r="10"/>
+                <line x1="16" y1="10" x2="16" y2="16"/>
+                <line x1="16" y1="16" x2="21" y2="18"/>
+                <path d="M8 4L4 8" /><path d="M24 4L28 8"/>
+              </svg>
+            </div>
+            <span class="pain-card__label">모임 후</span>
+            <p class="pain-card__text">밤에 혼자 앉아서<br>회의록 정리하고 있다</p>
+          </article>
+          <article class="pain-card">
+            <div class="pain-card__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                <circle cx="16" cy="14" r="4"/>
+                <path d="M16 18v6"/>
+                <path d="M10 28c0-4 3-6 6-6s6 2 6 6"/>
+                <path d="M16 6V4"/>
+                <path d="M22 8l2-2"/>
+                <path d="M10 8L8 6"/>
+              </svg>
+            </div>
+            <span class="pain-card__label">다음 모임 전</span>
+            <p class="pain-card__text">뭐 하기로 했더라?<br>안건을 또 처음부터 만든다</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIBERATION -->
+    <section id="liberation" class="section section--liberation">
+      <div class="section__inner">
+        <h2 class="section-heading section-heading--center">
+          이제 눈을 마주치세요.<br>
+          <span class="text-accent">기록은 도란이 할게요.</span>
+        </h2>
+        <p class="liberation__body">
+          녹음 하나 올리면, 5분 뒤<br>
+          회의록, 할 일, 다음 안건까지 정리돼 있어요.<br>
+          구성원 모두에게 바로 공유.
+        </p>
+
+        <!-- Visual flow: recording → deliverables -->
+        <div class="flow-visual">
+          <div class="flow-step flow-step--input">
+            <div class="flow-step__icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                <rect x="8" y="4" width="12" height="20" rx="6"/>
+                <line x1="14" y1="24" x2="14" y2="27"/>
+                <line x1="8" y1="27" x2="20" y2="27"/>
+                <line x1="14" y1="10" x2="14" y2="16"/>
+              </svg>
+            </div>
+            <span class="flow-step__label">녹음 업로드</span>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-step flow-step--process">
+            <div class="flow-step__icon flow-step__icon--doran">도란</div>
+            <span class="flow-step__label">5분</span>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-outputs">
+            <span class="tag">회의록</span>
+            <span class="tag">할 일 배정</span>
+            <span class="tag">다음 안건</span>
+            <span class="tag">결정사항 요약</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISION (도란방) -->
+    <section id="vision" class="section section--vision">
+      <div class="vision-bg" aria-hidden="true">
+        <div class="vision-glow"></div>
+      </div>
+      <div class="section__inner section__inner--center">
+        <p class="vision__label">우리가 만들어 갈</p>
+        <h2 class="section-heading section-heading--display">도란방.</h2>
+        <p class="vision__subtitle">모임의 기억이 쌓입니다.</p>
+
+        <div class="phone-frame">
+          <div class="phone-notch"></div>
+          <div class="doran-room">
+            <div class="doran-room__header">
+              <div class="doran-room__icon">🚢</div>
+              <div>
+                <div class="doran-room__name">클로드 스터디 도란방</div>
+                <div class="doran-room__meta">8회차 · 참여자 5명</div>
+              </div>
+            </div>
+            <div class="doran-room__timeline">
+              <article class="story">
+                <span class="story__date">3월 14일 · 7회차</span>
+                <span class="story__tag story__tag--quote">인상깊은 멘트</span>
+                <p class="story__text">"결국 AI가 코딩하는 시대에 우리가 가진 건 대화밖에 없다"</p>
+                <span class="story__reactions">💬 3 · ❤️ 4</span>
+              </article>
+              <article class="story">
+                <span class="story__date">3월 14일 · 7회차</span>
+                <span class="story__tag story__tag--decision">결정사항</span>
+                <p class="story__text">다음 주제: "1인 개발자의 AI 워크플로우"</p>
+                <span class="story__reactions">💬 1</span>
+              </article>
+              <article class="story">
+                <span class="story__date">3월 7일 · 6회차</span>
+                <span class="story__tag story__tag--task">할 일 완료</span>
+                <p class="story__text">✅ 민호: Claude Code 프롬프트 가이드 공유</p>
+                <span class="story__reactions">💬 5 · ❤️ 7</span>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <p class="vision__closing">
+          대화만 했을 뿐인데,<br>
+          우리 모임의 여정이 기록되고 있어요.
+        </p>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" class="section section--cta">
+      <div class="cta-bg" aria-hidden="true">
+        <div class="cta-blob cta-blob--1"></div>
+        <div class="cta-blob cta-blob--2"></div>
+      </div>
+      <div class="section__inner section__inner--center">
+        <div class="cta-boat" aria-hidden="true">
+          <svg width="64" height="44" viewBox="0 0 64 44" fill="none">
+            <path d="M32 2L56 34H8L32 2Z" fill="#E8DDD0" stroke="#B8AD9E" stroke-width="1.5"/>
+            <line x1="32" y1="2" x2="32" y2="24" stroke="#B8AD9E" stroke-width="1.5"/>
+            <path d="M4 40Q32 34 60 40" stroke="#C4B8A8" stroke-width="1.2" fill="none"/>
+            <path d="M8 43Q32 38 56 43" stroke="#D4C8B8" stroke-width="1" fill="none" opacity="0.5"/>
+          </svg>
+        </div>
+
+        <h2 class="cta__title">도란하자.</h2>
+        <p class="cta__subtitle">대화에 몰입하면, 모임은 알아서 굴러갑니다.</p>
+
+        <form class="waitlist-form" action="MAILCHIMP_FORM_ACTION_URL" method="post" target="_blank">
+          <div class="waitlist-form__row">
+            <input type="email" name="EMAIL" class="waitlist-form__input" placeholder="이메일 주소" required aria-label="이메일 주소">
+            <button type="submit" class="waitlist-form__button">론칭 알림 받기</button>
+          </div>
+          <p class="waitlist-form__consent">
+            이메일은 론칭 알림 발송에만 사용돼요.
+            <a href="privacy.html">개인정보처리방침</a>
+          </p>
+        </form>
+        <p class="cta__note">론칭하면 가장 먼저 알려드릴게요.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="privacy.html">개인정보처리방침</a>
+    <span class="footer-dot">·</span>
+    <span>© 2026 도란</span>
+  </footer>
+
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>
